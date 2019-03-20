@@ -1,0 +1,42 @@
+{
+    "name": "qingbing/pf-tools-upload",
+    "description": "工具——文件上传部件，验证",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "model",
+        "upload",
+        "validate",
+        "validator"
+    ],
+    "homepage": "http://www.phpcorner.net",
+    "authors": [
+        {
+            "name": "qingbing",
+            "email": "780042175@qq.com"
+        }
+    ],
+    "require": {
+        "qingbing/php-helper": ">=1.0, <2.0",
+        "qingbing/php-model": ">=1.0, <2.0"
+    },
+    "require-dev": {
+        "qingbing/php-html": ">=1.0, <2.0",
+        "qingbing/php-web": ">=1.0, <2.0",
+        "qingbing/php-file-cache": ">=1.0, <2.0",
+        "qingbing/php-render": ">=1.0, <2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tools\\": "src/tools",
+            "UploadSupports\\": "src/supports"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TestApp\\": "test/app",
+            "Controllers\\": "test/controllers"
+        }
+    }
+}
